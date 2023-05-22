@@ -39,18 +39,18 @@ class generate_caption():
         res_list = res.split('##')
         return res_list
 
-    def run(self, img):
+    def run(self, img, N):
         if isinstance(img, str):
             raw_image = Image.open(IMG_PATH).convert('RGB')
         else:
             raw_image = img
         caption = self.generate_vanilla_caption(raw_image)
-        filtered_caption = self.generate_filtered_captions(caption)
+        filtered_caption = self.generate_filtered_captions(caption, N)
         return filtered_caption
 
 
 if __name__=='__main__':    
-    IMG_PATH = "data\Image3.png"
-    print(generate_caption().run(IMG_PATH))
+    IMG_PATH = "data\Image2.png"
+    print(generate_caption().run(IMG_PATH, 6))
 
     

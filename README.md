@@ -21,3 +21,6 @@ This tool can be used to generate multiple catchy and exciting image captions gi
 - Activate conda environment `conda activate ImageCaptioning`
 - Run `python main.py`
 - Visit `http://127.0.0.1:7860` to access the tool.
+
+## Future Works
+- A better base image captioning model could be used - like BLIP2

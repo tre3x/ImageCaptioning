@@ -1,6 +1,9 @@
 # Image Captioning Tool
 
 ## About
+<img src="/data/demo.gif" width="530" height="300"/>
+
+
 This tool can be used to generate multiple catchy and exciting image captions given an image. Also, comes with a gradio UI.
 
 ## Getting Started
